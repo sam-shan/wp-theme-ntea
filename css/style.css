@@ -1,0 +1,451 @@
+/* -------------------------------------------------------------------
+Main Theme style for Neelagiri Tea
+----------------------------------------------------------------------
+Author: Sam@Birdinkweb.com / Indika Sampath
+Version: 2.0.1.6;
+Date: November 2016;
+Origin: LK;
+---------------------------------------------------------------------- */
+
+body {
+  font-size: 15px;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: "CircularStd-Bold",sans-serif;
+  line-height: 1;
+  margin: 0;
+}
+
+p {
+  font-family: "CircularStd-Book",sans-serif;
+  line-height: 1.25;
+}
+
+
+a {
+	outline: none;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+figure {
+	margin: 0;
+}
+
+.no-padding {
+	padding: 0!important;
+}
+
+::-webkit-input-placeholder {
+   color: #989898 !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #989898 !important;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #989898 !important;  
+}
+
+:-ms-input-placeholder {  
+   color: #989898 !important;  
+}
+
+#mobile-menu {
+	display: none;
+}
+
+.divider {
+  clear: both;
+  width: 100%;
+  height: 1px;
+  display: block;
+}
+
+.button.green {
+  background: #91a72b;
+  font-family: "CircularStd-Medium",sans-serif;
+}
+
+/*------------------------ Primary Header ------------------------ */
+
+.primary-header {
+  line-height: 120px;
+}
+
+.branding a {
+  display: block;
+}
+
+
+/*------------------------ Primary Header - Navigation ------------------------ */
+
+
+.primary-navigation {
+  font-family: "CircularStd-Black",sans-serif;
+  overflow: hidden;
+  margin-top: 45px;
+}
+
+.primary-navigation .menu li a {
+  margin: 0 0.5rem;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.primary-navigation .menu li a:hover {
+  text-decoration: underline;
+}
+
+
+/*------------------------ Hero Slider ------------------------ */
+
+
+.hero-slider {
+  display: none;
+}
+
+.hero-slider .item {
+  height: 100%;
+  min-height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-slider .owl-nav {
+  position: absolute;
+  display: block;
+  width: 100%;
+  z-index: 1;
+  top: 45%;
+}
+
+  .hero-slider .owl-nav .owl-prev,
+  .hero-slider .owl-nav .owl-next {
+    position: absolute;
+  }
+
+  .hero-slider .owl-nav .owl-prev {
+    right: 20px;
+  }
+
+  .hero-slider .owl-nav .owl-next {
+    left: 20px;
+  }
+
+  .hero-slider .owl-nav .owl-prev span,
+  .hero-slider .owl-nav .owl-next span {
+    font-size: 48px;
+    font-weight: normal;
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  .hero-slider .owl-nav span {
+    opacity: 0.8;
+  }
+
+  .hero-slider .owl-nav span:hover {
+    opacity: 1;
+  }
+
+
+/*------------------------ Featured products ------------------------ */
+
+
+.featured-products {
+  margin: 60px 0;
+}
+
+.featured-products h1 {
+  font-size: 30px;
+  color: #7fa06b;
+  margin-bottom: 35px;
+}
+
+.featured-products h2 {
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+.featured-products .columns:hover {
+  opacity: 0.95;
+}
+
+
+/*------------------------ Featured Blog ------------------------ */
+
+
+.featured-blog {
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+
+  .featured-blog .blog-image  {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .featured-blog .blog-details {
+    padding: 40px;
+    background: #7fa26a;
+  }
+
+  .featured-blog .blog-details small.cat,
+  .featured-blog .blog-details small.cat a {
+    font-family: 'CircularStd-Book',sans-serif;
+    font-size: 12px;
+    color: #cedec4;
+    text-transform: uppercase;
+  }
+
+  .featured-blog .blog-details h1 {
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 1.35;
+    margin-bottom: 6px;
+  }
+
+  .featured-blog .blog-details p {
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .featured-blog .blog-details a,
+  .featured-blog .blog-details p a {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'CircularStd-Bold',sans-serif;
+  }
+
+  .featured-blog .blog-details a span,
+  .featured-blog .blog-details p a span {
+    font-family: 'CircularStd-Book',sans-serif;
+  }
+
+  .featured-blog .blog-details a:hover {
+    text-decoration: underline;
+  }
+
+
+/*------------------------ Featured Story ------------------------ */
+
+
+.featured-story {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+  color: #ffffff;
+  position: relative;
+}
+
+  .featured-story:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  .featured-story h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    z-index: 10;
+    position: relative;
+  }
+
+  .featured-story p {
+    font-family: 'CircularStd-Book',sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    z-index: 10;
+    position: relative;
+  }
+
+  .featured-story a,
+  .featured-story p a {
+    display: inline-block;
+    padding: 6px 15px;
+    font-family: 'CircularStd-Medium',sans-serif;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-size: 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+  }
+
+  .featured-story a:hover {
+    background: rgba(255,255,255,1);
+    color: #1f1751;
+  }
+
+
+/*------------------------ Products Template ------------------------ */
+
+
+.featured-products.main .columns {
+  position:relative;
+  margin-bottom: 40px;
+}
+
+.featured-products.main .columns .overlay {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);  
+  -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.featured-products.main .columns:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.featured-products.main .columns .overlay .button {
+  font-size: 16px;
+}
+
+.featured-products.main .columns .tags {
+  color: #a8a8a8;
+  display: block;
+  font-size: 13px;
+}
+
+.featured-products.main img.new {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+.product-cats {
+  background-color: #769059;
+  display: block;
+  padding: 20px 0;
+}
+
+.product-cats ul {
+  margin: 0;
+}
+
+.product-cats ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.product-cats ul li a {
+  font-family: "CircularStd-Medium",sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.product-cats ul li a:hover,
+.product-cats ul li a.active {
+  color: #374524;
+}
+
+.featured-image {
+  display: block;
+  min-height: 260px;
+  position: relative;
+  background-size: cover !important;
+}
+
+.featured-image .head-caption {
+  margin-top: 60px;
+  /*position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);  */
+}
+
+.featured-image .head-caption h1 {
+  font-size: 42px;
+  font-family: "Times New Roman",sans-serif;
+  color: #d7d7d7;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.featured-image .head-caption p {
+  color: #d7d7d7;
+  line-height: 1.5;
+}
+
+
+/*------------------------ Footer ------------------------ */
+
+
+.primary-footer {
+  padding: 60px 0 50px;
+  background-color: #333;
+  color: #8d8d8d;
+}
+
+.primary-footer h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: "CircularStd-Medium",sans-serif;
+}
+
+.primary-footer p {
+  margin-bottom: 25px;
+}
+
+.divider.hr {
+  background: #3f3f3f;
+  margin-bottom: 25px;
+}
+
+.credentials cite {
+  font-style: normal;
+  font-family: 'CircularStd-Book',sans-serif;
+  font-size: 15px;
+}
+
+.credentials cite:before {
+  content: "";
+}
+
+.credentials .socials {
+  margin: 0;
+  padding: 0;
+  line-height: 90px;
+  border-left: 1px solid #3f3f3f;
+}
+
+.credentials .socials li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.credentials .socials li a {
+  color: #8d8d8d;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #4b4b4b;
+  font-size: 22px;
+  padding: 12px;
+}
+
+.credentials .socials li a:hover {
+  border-color: #ffffff;
+  background-color: #ffffff;
+}

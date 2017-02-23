@@ -1,0 +1,111 @@
+/*
+	============================================================
+	============================================================
+	Font Styles added 24.08.2016
+	Neelagiri Tea LK
+	sam@birdinkweb (C)2016, LK
+	Fonts: 
+	============================================================
+
+	============================================================
+*/
+
+@font-face {
+  font-family: 'Chapaza-Regular';
+  src: url('../fonts/web/Chapaza-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/web/Chapaza-Regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/web/Chapaza-Regular.woff') format('woff'),
+     url('../fonts/web/Chapaza-Regular.ttf')  format('truetype'),
+     url('../fonts/web/Chapaza-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Chapaza-Italic';
+  src: url('../fonts/web/Chapaza-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/web/Chapaza-Italic.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/web/Chapaza-Italic.woff') format('woff'),
+     url('../fonts/web/Chapaza-Italic.ttf')  format('truetype'),
+     url('../fonts/web/Chapaza-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }
+
+ @font-face {
+  font-family: 'CircularStd-Medium';
+  src: url('../fonts/web/CircularStd-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/web/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/web/CircularStd-Medium.woff') format('woff'),
+     url('../fonts/web/CircularStd-Medium.ttf')  format('truetype'),
+     url('../fonts/web/CircularStd-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }
+
+ @font-face {
+  font-family: 'CircularStd-MediumItalic';
+  src: url('../fonts/web/CircularStd-MediumItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/web/CircularStd-MediumItalic.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/web/CircularStd-MediumItalic.woff') format('woff'),
+     url('../fonts/web/CircularStd-MediumItalic.ttf')  format('truetype'),
+     url('../fonts/web/CircularStd-MediumItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }
+
+ @font-face {
+  font-family: 'CircularStd-Book';
+  src: url('../fonts/web/CircularStd-Book.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/web/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/web/CircularStd-Book.woff') format('woff'),
+     url('../fonts/web/CircularStd-Book.ttf')  format('truetype'),
+     url('../fonts/web/CircularStd-Book.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }
+
+ @font-face {
+  font-family: 'CircularStd-BookItalic';
+  src: url('../fonts/web/CircularStd-BookItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/web/CircularStd-BookItalic.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/web/CircularStd-BookItalic.woff') format('woff'),
+     url('../fonts/web/CircularStd-BookItalic.ttf')  format('truetype'),
+     url('../fonts/web/CircularStd-BookItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }
+  
+@font-face {
+  font-family: 'CircularStd-Black';
+  src: url('../fonts/web/CircularStd-Black.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/web/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/web/CircularStd-Black.woff') format('woff'),
+     url('../fonts/web/CircularStd-Black.ttf')  format('truetype'),
+     url('../fonts/web/CircularStd-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Circular-Std-Black-Italic';
+  src: url('../fonts/web/Circular-Std-Black-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/web/Circular-Std-Black-Italic.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/web/Circular-Std-Black-Italic.woff') format('woff'),
+     url('../fonts/web/Circular-Std-Black-Italic.ttf')  format('truetype'),
+     url('../fonts/web/Circular-Std-Black-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }
+
+ @font-face {
+  font-family: 'CircularStd-BoldItalic';
+  src: url('../fonts/web/CircularStd-BoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/web/CircularStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/web/CircularStd-BoldItalic.woff') format('woff'),
+     url('../fonts/web/CircularStd-BoldItalic.ttf')  format('truetype'),
+     url('../fonts/web/CircularStd-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }
+ 
+ @font-face {
+  font-family: 'CircularStd-Bold';
+  src: url('../fonts/web/CircularStd-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/web/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/web/CircularStd-Bold.woff') format('woff'),
+     url('../fonts/web/CircularStd-Bold.ttf')  format('truetype'),
+     url('../fonts/web/CircularStd-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }

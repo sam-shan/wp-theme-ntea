@@ -1,0 +1,131 @@
+/* -------------------------------------------------------------------
+Theme style for Neelagiri Tea
+----------------------------------------------------------------------
+Author: Sam@Birdinkweb.com / Indika Sampath
+Version: 2.0.1.6;
+Date: November 2016;
+Origin: LK;
+---------------------------------------------------------------------- */
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 60em) and (max-width: 65em) {
+	.primary-navigation .menu li a {
+		/*margin: 0 0.1rem;*/
+		padding: 0.7rem 0.7rem;
+	}
+}
+
+@media only screen and (min-width: 53em) and (max-width: 60em) {
+	.primary-navigation .menu li a {
+		margin: 0;
+		padding: 0.7rem 0.8rem;
+	}
+}
+
+@media only screen and (min-width: 0em) and (max-width: 53em) {
+	.primary-navigation {
+		display: none;
+	}
+
+	#mobile-menu {
+		display: block;
+		position: relative;
+	}
+}
+
+@media only screen and (min-width: 40em) and (max-width: 53em) {
+	.slicknav_menu {		
+		position: absolute;
+		top: 40px;
+		right: 0;
+		z-index: 100;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 0em) and (max-width: 64em) {	
+	.featured-products {
+		margin-bottom: 0;
+	}
+
+	.featured-products .columns {
+		margin-bottom: 35px;
+	}
+
+	.featured-blog {
+		margin-bottom: 0;
+	}
+
+	.featured-blog .blog-image {
+		min-height: 300px;
+	}
+
+	.product-cats ul li a {
+		line-height: 2;
+	}
+}
+
+@media only screen and (min-width: 0em) and (max-width: 39.9375em) {
+	h1 {
+		font-size: 22px!important;
+		padding: 0 20px;
+	}
+
+	.branding {
+		text-align: center;
+	}
+
+	.slicknav_menu {
+		background: #7fa26a;
+	}
+
+	.hero-slider .item {
+		min-height: 300px;
+	}
+
+	.hero-slider .owl-nav .owl-next {
+		left: 0;
+	}
+
+	.hero-slider .owl-nav .owl-prev {
+		right: 0;
+	}
+
+	.hero-slider .owl-nav .owl-prev span, 
+	.hero-slider .owl-nav .owl-next span {
+		font-size: 36px;
+	}
+
+	.featured-blog .blog-details {
+		padding: 30px;
+	}
+
+	.featured-blog .blog-details h1 {
+		padding: 0;
+	}
+
+	.featured-story {
+		padding: 60px 0;
+	}
+
+	.featured-story h2 {
+		font-size: 20px;
+	}
+
+	.featured-story p {
+		font-size: 16px;
+	}
+
+	.credentials .socials {
+		border-left: 0;
+	}
+}
+
+
+@media only screen and (min-width: 0em) and (max-width: 24em) {
+	
+}
